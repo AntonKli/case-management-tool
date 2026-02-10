@@ -143,11 +143,15 @@ case_management_tool/
 
 ## Screenshots
 
-Die UI wird im README anhand von Screenshots dokumentiert:
+### Case Übersicht
+![Case Übersicht](docs/screenshots/uebersicht.PNG)
 
-* details.png
-* erstelle.png
-* uebersicht.png
+### Case Details
+![Case Details](docs/screenshots/details.PNG)
+
+### Case erstellen
+![Case erstellen](docs/screenshots/erstelle.PNG)
+
 
 ---
 
