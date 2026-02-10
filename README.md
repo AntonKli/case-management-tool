@@ -145,9 +145,9 @@ case_management_tool/
 
 Die UI wird im README anhand von Screenshots dokumentiert:
 
-* cases-list.png
-* case-detail.png
-* create-case.png
+* details.png
+* erstelle.png
+* uebersicht.png
 
 ---
 
