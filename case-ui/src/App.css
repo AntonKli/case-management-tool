@@ -1,0 +1,68 @@
+/* Root-Container der React-App
+ * - zentriert den Inhalt horizontal
+ * - begrenzt die maximale Breite für bessere Lesbarkeit
+ * - sorgt für gleichmäßigen Innenabstand
+ */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Basis-Styling für Logos (z. B. Vite / React Demo-Assets)
+ * Hinweis: Dieses Styling stammt größtenteils aus dem Vite-Template
+ * und ist funktional nicht relevant für die Case-App selbst.
+ */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+
+  /* Performance-Hint für den Browser,
+   * da filter-Effekte beim Hover animiert werden.
+   */
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+/* Allgemeiner Hover-Effekt für Logos */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Spezieller Hover-Effekt für das React-Logo */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Keyframes für eine einfache Rotationsanimation */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Accessibility:
+ * Animation nur aktivieren, wenn der User
+ * keine reduzierte Bewegung (prefers-reduced-motion) eingestellt hat.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Generische Card-Komponente
+ * Wird im UI für visuelle Gruppierung (Listen, Formulare, Details) verwendet.
+ */
+.card {
+  padding: 2em;
+}
+
+/* Hilfsstil für sekundäre/erklärende Texte */
+.read-the-docs {
+  color: #888;
+}
